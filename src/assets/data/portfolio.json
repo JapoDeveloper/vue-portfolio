@@ -1,0 +1,135 @@
+{
+	"profile":{
+		"firstName":"Julio Alberto",
+		"lastName":"Peña Ortega",
+		"alias":"Japo",
+		"birthDate":"1993-12-20",
+		"avatar":"avatar.jpg",
+		"email":"japo.developer@gmail.com",
+		"web":"http://japo.co",
+		"currentWorkPosition":"Software Engineering at IDAC",
+		"aboutMe":"I am an anime lover and passionate programmer. Currently, i am working in building enterprise application with JSF stack, and in a transition to modern web ecosystems for larger and smaller projects.",
+		"quote":"Success is not the key to happiness. Happiness is the key to success. If you love whar you are doing, you will be successful.",
+		"quoteAutor":"Albert Schweitzer",
+		"socials":[
+			{
+				"username":"ing.japo",
+				"icon":"fa fa-facebook",
+				"url":"https://www.facebook.com/ing.japo"
+			},
+			{
+				"username":"+JulioAlbertoPeñaOrtega",
+				"icon":"fa fa-google-plus",
+				"url":"https://plus.google.com/+JulioAlbertoPe%C3%B1aOrtega"
+			},
+			{
+				"username":"jpenaortega",
+				"icon":"fa fa-linkedin",
+				"url":"https://www.linkedin.com/in/jpenaortega/"
+			},
+			{
+				"username":"JapoDeveloper",
+				"icon":"fa fa-github",
+				"url":"https://github.com/JapoDeveloper"
+			}
+		],
+		"education":[
+			{
+				"id":0,
+				"degree":"Java Advanced",
+				"institution":"Technological Institute of the Americas",
+				"begin":"2015",
+				"end":"2016",
+				"type":"diploma"
+			},
+			{
+				"id":1,
+				"degree":"Software Engineering",
+				"institution":"APEC College",
+				"begin":"2012",
+				"end":"2017",
+				"type":"degree"
+			},
+			{
+				"id":2,
+				"degree":"Bachelor's Degree in Electronics Digital Mention and Microcomputation",
+				"institution":"Loyola Polytechnic Institute",
+				"begin":"2008",
+				"end":"2011",
+				"type":"degree"
+			}
+		],
+		"experience":[
+			{
+				"id":0,
+				"jobTitle":"Technical support",
+				"company":"J&A Soluciones SRL",
+				"location":"Santo Domingo, Dominican Republic",
+				"begin":"Nov-2013",
+				"end":null,
+				"description":"I am in charge of the technological part of the business, which includes giving support and maintenance to computers. Some tasks such as: contacting customers, chauffeur, mailing, invoicing and quote, etc. I am currently developing a project for J & A Soluciones, which allows the management of HR, inventory, invoicing, collections, payments, customers, suppliers, among others."
+			},
+			{
+				"id":1,
+				"jobTitle":"Software Engineer",
+				"company":"Instituto Dominicano de Aviación Civil",
+				"location":"Santo Domingo, Dominican Republic",
+				"begin":"May-2013",
+				"end":null,
+				"description":"In the IDAC I am part of the team that develops the SIAGA project.<ol><li>Elicitation of requirements for maintenance of project subsystems.</li><li>Development and implementation of modules and subsystems.</li><li>Induction and training of IDAC staff to use the developed tools within the SIAGA project</li></ol>"
+			},
+			{
+				"id":2,
+				"jobTitle":"Mobile Hybrid App Developer",
+				"company":"Camicas",
+				"location":"Chicago",
+				"begin":"Dec-2016",
+				"end":"Dec-2016",
+				"description":"Develop and maintain hybrid mobile applications and customs apis using Java, IONIC and AngularJs technologies. Manage the development and testing phases of the project."
+			}
+		],
+		"projects":[
+			{
+				"name":"",
+				"description":"",
+				"featuredImage":"",
+				"url":"",
+				"techonologies":[
+					{
+						"name":"",
+						"logo":""
+					}
+				],
+				"gallery":[
+					{
+						"name":"",
+						"description":"",
+						"url":""
+					}
+				]
+			}
+		],
+		"skills":[
+			{
+				"group":{"name":""},
+				"name":"",
+				"level":"",
+				"experience":""
+			}
+		],
+		"courses":[
+			{
+				"name":"",
+				"description":""
+			}
+		],
+		"certifications":[
+			{
+				"title":"",
+				"institution":"",
+				"begin":"",
+				"end":""
+			}
+		]
+	}
+}
