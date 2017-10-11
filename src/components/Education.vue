@@ -1,8 +1,8 @@
 <template>
-    <div id="education">
+    <div id="education" class="defaultComponent">
         <div class="item" v-for="edu in educationSorted" :key="edu.id">
-            <i class="fa fa-graduation-cap" v-if="edu.type == 'degree'"/>
-            <i class="fa fa-file-text" v-if="edu.type == 'diploma'"/>
+            <i class="fa fa-graduation-cap Teal" v-if="edu.type == 'degree'"/>
+            <i class="fa fa-file-text Cyan" v-if="edu.type == 'diploma'"/>
             <span class="degree">{{edu.degree}}</span> | <span class="time">{{edu.begin}}</span> - <span class="time">{{edu.end}}</span> <br/>
             <span class="institution">{{edu.institution}}</span>
         </div>
@@ -24,9 +24,6 @@
 
 <style scoped>
     #education {
-        width: 60%;
-        margin: auto;
-        margin-top: 100px;
     }
 
     .item{
@@ -34,7 +31,9 @@
     }
 
     .degree{
-        font-size: 1.4em;
+        font-size: 1.3em;
+        color:#17657D;
+        font-weight: bold;
     }
 
     .time{
@@ -42,6 +41,6 @@
     }
 
     .institution{
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 </style>

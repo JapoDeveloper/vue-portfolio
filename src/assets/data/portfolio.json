@@ -8,7 +8,7 @@
 		"email":"japo.developer@gmail.com",
 		"web":"http://japo.co",
 		"currentWorkPosition":"Software Engineering at IDAC",
-		"aboutMe":"I am an anime lover and passionate programmer. Currently, i am working in building enterprise application with JSF stack, and in a transition to modern web ecosystems for larger and smaller projects.",
+		"aboutMe":"I am an anime lover and passionate programmer. Currently, i am working in building enterprise application with JSF stack, VueJs and Spring Framework, and in a transition to modern web ecosystems for larger and smaller projects.",
 		"quote":"Success is not the key to happiness. Happiness is the key to success. If you love whar you are doing, you will be successful.",
 		"quoteAutor":"Albert Schweitzer",
 		"socials":[
@@ -57,11 +57,28 @@
 				"begin":"2008",
 				"end":"2011",
 				"type":"degree"
+			},
+			{
+				"id":0,
+				"degree":"Development of Basic Android Mobile Applications",
+				"institution":"Altice Dominicana",
+				"begin":"07/2017",
+				"end":"09/2017",
+				"type":"diploma"
 			}
 		],
 		"experience":[
 			{
 				"id":0,
+				"jobTitle":"Software Engineer",
+				"company":"Instituto Dominicano de Aviación Civil",
+				"location":"Santo Domingo, Dominican Republic",
+				"begin":"May-2013",
+				"end":null,
+				"description":"In the IDAC I am part of the team that develops the SIAGA project.<ul><li>Elicitation of requirements for maintenance of project subsystems.</li><li>Development and implementation of modules and subsystems.</li><li>Induction and training of IDAC staff to use the developed tools within the SIAGA project</li></ul>"
+			},
+			{
+				"id":1,
 				"jobTitle":"Technical support",
 				"company":"J&A Soluciones SRL",
 				"location":"Santo Domingo, Dominican Republic",
@@ -70,19 +87,10 @@
 				"description":"I am in charge of the technological part of the business, which includes giving support and maintenance to computers. Some tasks such as: contacting customers, chauffeur, mailing, invoicing and quote, etc. I am currently developing a project for J & A Soluciones, which allows the management of HR, inventory, invoicing, collections, payments, customers, suppliers, among others."
 			},
 			{
-				"id":1,
-				"jobTitle":"Software Engineer",
-				"company":"Instituto Dominicano de Aviación Civil",
-				"location":"Santo Domingo, Dominican Republic",
-				"begin":"May-2013",
-				"end":null,
-				"description":"In the IDAC I am part of the team that develops the SIAGA project.<ol><li>Elicitation of requirements for maintenance of project subsystems.</li><li>Development and implementation of modules and subsystems.</li><li>Induction and training of IDAC staff to use the developed tools within the SIAGA project</li></ol>"
-			},
-			{
 				"id":2,
 				"jobTitle":"Mobile Hybrid App Developer",
 				"company":"Camicas",
-				"location":"Chicago",
+				"location":"Chicago, United States",
 				"begin":"Dec-2016",
 				"end":"Dec-2016",
 				"description":"Develop and maintain hybrid mobile applications and customs apis using Java, IONIC and AngularJs technologies. Manage the development and testing phases of the project."
@@ -90,21 +98,25 @@
 		],
 		"projects":[
 			{
-				"name":"",
-				"description":"",
-				"featuredImage":"",
-				"url":"",
+				"name":"MindExplotion",
+				"description":"My personal version of the legendary Simon Game of Hasbro.",
+				"featuredImage":"https://github.com/JapoDeveloper/MindExplotion/blob/master/mind_explotion_init.jpg?raw=true",
+				"url":"https://github.com/JapoDeveloper/MindExplotion",
 				"techonologies":[
 					{
-						"name":"",
-						"logo":""
+						"name":"Android SDK",
+						"logo":"fa fa-android"
 					}
 				],
 				"gallery":[
 					{
-						"name":"",
+						"name":"Init screen",
 						"description":"",
-						"url":""
+						"url":"https://github.com/JapoDeveloper/MindExplotion/blob/master/mind_explotion_init.jpg?raw=true"
+					},
+					{
+						"name":"Games List",
+						"url":"https://github.com/JapoDeveloper/MindExplotion/blob/master/mind_explotion_games_list.jpg?raw=true"
 					}
 				]
 			}

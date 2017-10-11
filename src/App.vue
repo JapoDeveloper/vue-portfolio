@@ -2,23 +2,24 @@
   <div id="app">
     <section id="menu">
       <ul>
-        <li><i class="fa fa-home"/> <router-link to='/'>Intro</router-link></li>
-        <li><i class="fa fa-user"/> <router-link to='/aboutme'>About me</router-link></li>
-        <li><i class="fa fa-graduation-cap"/> <router-link to='/education'>Education</router-link></li>
-        <li><i class="fa fa-building"/> <router-link to='/experience'>Experience</router-link></li>
-        <li><i class="fa fa-briefcase"/> <router-link to='/projects'>Projects</router-link></li>
-        <li><i class="fa fa-envelope"/> <router-link to='/contacts'>Contact</router-link></li>
+        <li><router-link to='/'><i class="fa fa-home"/> Intro</router-link></li>
+        <li><router-link to='/aboutme'><i class="fa fa-user"/> About me</router-link></li>
+        <li><router-link to='/education'><i class="fa fa-graduation-cap"/> Education</router-link></li>
+        <li><router-link to='/'><img :src="require('@/assets/images/logo.png')" width="70"/></router-link></li>
+        <li><router-link to='/experience'><i class="fa fa-building"/> Experience</router-link></li>
+        <li><router-link to='/projects'><i class="fa fa-briefcase"/> Projects</router-link></li>
+        <li><router-link to='/contact'><i class="fa fa-envelope"/> Contact</router-link></li>
       </ul>
     </section>
     <section id="content">
-        <router-view></router-view>
+      <router-view></router-view>
     </section>
   </div>
 </template>
 
 <script>
   import portfolio from '@/assets/data/portfolio.json';
-
+  
   export default {
     name: 'app',
     data(){
@@ -40,9 +41,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  a, a:hover, .router-link-active, .router-link-active:hover{
+  ul{
+    list-style: none;
+}
+
+  .defaultComponent{
+    width: 60%;
+    margin: auto;
+    margin-top: 130px;
+  }
+
+  a, a:hover{
     color:white; 
-    text-decoration: none;   
+    text-decoration: none !important;   
+  }
+  .router-link-active, .router-link-active:hover{
+    color:white !important; 
+    text-decoration: none !important;   
   }
 
   #menu{
@@ -75,4 +90,75 @@
     height: 100vh;
   }
 
+  .Green{
+    color:#2E7D32;
+  }
+
+  .Red{
+    color:#c62828;
+  }
+
+  .Pink{
+    color:#AD1457;
+  }
+
+  .Purple{
+    color:#6A1B9A;
+  }
+
+  .DeepPurple{
+    color:#4527A0;
+  }
+
+  .Blue{
+    color:#1565C0;
+  }
+
+  .LightBlue{
+    color:#0277BD;
+  }
+
+  .Cyan, .Cyan:hover{
+    color:#00838F;
+  }
+
+  .Teal{
+    color:#00695C;
+  }
+
+  .LightGreen{
+    color:#558B2F;
+  }
+
+  .Yellow{
+    color:#F9A825;
+  }
+
+  .Amber{
+    color:#FF8F00;
+  }
+
+  .Orange{
+    color:#EF6C00;
+  }
+
+  .DeepOrange{
+    color:#D84315;
+  }
+
+  .Brown{
+    color:#4E342E;
+  }
+
+  .Gray{
+    color:#424242;
+  }
+
+  .BlueGray{
+    color:#37474F;
+  }
+
+  .White{
+    color:#fff;
+  }
 </style>

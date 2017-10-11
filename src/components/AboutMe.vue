@@ -1,6 +1,6 @@
 <template>
-  <div id="aboutMe">
-      <img :src="profile.avatar" width="150"/>
+  <div id="aboutMe" class="defaultComponent">
+      <img :src="profile.avatar" width="150" class="img-circle"/>
       <p>{{profile.firstName}} {{profile.lastName}}</p>
       <br/>
       <p id="bio">
@@ -21,17 +21,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
     #aboutMe{
         text-align: center;
-        width:60%;
-        margin: auto;
-        margin-top:100px;
     }
 
     #bio{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 </style>
 

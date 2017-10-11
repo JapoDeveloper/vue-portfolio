@@ -7,6 +7,8 @@ import Intro from '../components/Intro'
 import AboutMe from '../components/AboutMe'
 import Education from '../components/Education'
 import Job from '../components/Job'
+import Project from '../components/Project'
+import Contact from '../components/Contact'
 
 Vue.use(VueRouter)
 
@@ -38,6 +40,22 @@ const routes = [
     {
         path:'/experience',
         component:Job,
+        props:
+        {
+            profile:portfolio.profile
+        }
+    },
+    {
+        path:'/projects',
+        component:Project,
+        props:
+        {
+            profile:portfolio.profile
+        }
+    },
+    {
+        path:'/contact',
+        component:Contact,
         props:
         {
             profile:portfolio.profile

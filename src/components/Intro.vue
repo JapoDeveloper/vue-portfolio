@@ -12,11 +12,11 @@
           </div>
           <br/>
           <p class="smallText">
-              <span>Web and mobile developer for passion</span>
+              <span>Web and Mobile developer for passion</span>
               <br/>
               <span>and</span>
               <br/>
-              <span>anime lover for devotion</span>
+              <span>an anime fan</span>
           </p>
       </div>
   </div>
